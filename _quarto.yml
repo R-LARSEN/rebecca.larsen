@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Rebecca Larsen"
+  navbar: 
+    right: 
+    - href: index.qmd
+      text: Home 
+    - href: about.qmd
+      text: About 
+    - href: CV_2.2023.pdf
+      text: CV 
+    - text: Assignments 
+      menu: 
+      - href: Assignment1.html 
+        text: Assignment1
+      - href: Assignment2.html
+        text: Assignment2
+      - href: Assignment3.html 
+        text: Assignment3
+      - href: Assignment4.html
+        text: Assignment4
+      - href: Assignment5html
+        text: Assignment5
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
